@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Play', sans-serif;
@@ -6,11 +6,11 @@ body{
     padding: 100px;
 }
 
-.Substrate{
+.substrate {
     background-color: rgb(177, 195, 206);
     padding: 50px;
     font-size: 25px;
 }
-footer{
+footer {
     font-size: 13px;
 }
