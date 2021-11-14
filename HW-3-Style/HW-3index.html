@@ -1,49 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HW-3-CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Inter:wght@400;600&family=Nanum+Gothic:wght@400;700&family=Play:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Inter:wght@400;600&family=Nanum+Gothic:wght@400;700&family=Play:wght@400;700&family=Roboto:ital,wght@0,500;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/HW-3style.css">
 </head>
-
 <body>
-    <div>
-        <h3>Base</h3>
-        <li>it config --global user.name blabla-Встановлює ім'я, яке буде відображатися в полі автора у комітів, які ви
-            виконуєте.</li>
-        <li>git config --global user.email blabal@bla-Встановлює адресу електронної пошти, яка відображатиметься в
-            інформації про коміти, які ви виконуєте.</li>
-        <li>git init-Створює новий локальний репозиторій із заданим ім'ям</li>
-        <li>git status- Перераховує всі нові або змінені файли, які потребують фіксації</li>
-        <li>git add-Індексує вказаний файл для наступного коміту</li>
-        <li>git commit-Фіксує проіндексовані зміни та зберігає їх в історію версій</li>
-        <li>git log-Історія коммітів для поточної гілки</li>
-        <li>git checkout-використовується для копіювання файлів з історії або сцени до робочої директорії. Також вона
-            може використовуватися для
-            перемикання між гілками.</li>
-        <li>git branch-Список, створенних або видалення гілок</li>
-        <li>git push-Завантажує всі зміни локальної гілки у віддалений репозиторій</li>
-        <li>git pull-Завантажує історію з віддаленого репозиторію та поєднує її з локальною. pull = fetch + merge</li>
-        <li>git merge-Вносить зміни вказаної гілки в поточну гілку</li>
-        <li>git clone-Завантажує репозиторій разом із усією його історією змін</li>
-        <h1></h1>.gitignore</h1> - команда, яка вказує, які файли повинен ігнорувати Git
-    </div>
-    <div>
-        <h3>Advanced</h3>
-        <li>git revert-є типовою командою скасування.</li>
-        <li>git reset-Скасовує індексацію вказаного файлу, зберігаючи його вміст</li>
-        <li>git rebase-Повторно застосуйте комміти поверх іншої базової підказки</li>
-        <li>git cherry-pick-бере зміни, що вносяться одним коммітом, і намагається повторно застосувати їх у вигляді
-            нового комміту в поточній
-            гілці.</li>
-        <li>git stash-Тимчасово зберігає всі незафіксовані зміни файлів, що відстежуються.</li>
-    </div>
-    <div> <img src="HW-3.jpg" alt=""></div>
-    
+    <header>
+        <h1 class="header1">
+            V1.1 </h1>
+        <h2 class="header2">
+            Cookie Banners </h2>
+        <p class ="header3">
+            Made by @adarshdk </p>
+    </header>
+    <div class="maine-sectione">
+        <p class= "examples">Examples</p>
+      <!--Baners-->
+        <section class= "Baner1">
+            <!--Baner1-->
+            <p class="content-baner1">By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze
+            site usage, and assist in our marketing efforts.
+            </p>
+            <div>
+            <ins style="color:#4AD295 ;"> <a href="file:///D:/CURSOR-Basic/HW-3-Style/HW-3index.html"> Cookie Setting</a></ins> 
+            <button type="submit" onclick="alert('cookies is accept')">Accept All Cookies</button>
+            </div>
+        </section>
+        <!--Baner2-->
+        <section class= "Baner2">
+            <p><img src="baner2.1.png" alt="скрін екрвну"> We use cookies to enhance your user experience. By continuing to visit this site you agree to our use of cookies. <img src="baner2 .2.png" alt="скрін екрвну"></p>
+        </section>
+        <!--Baner3-->
+        <section class="Baner3">
+            <!--Box1-->
+            <div class="Box1-baner3">
+                <p> <img src="baner3.1.png" alt="вставка банер 3"> We use cookies to ensure that we give you the best experience on our website.<span style="color: #EA4C89;"> Read cookies policies.</span></p>
+                <div class="buttons-box1">
+                <button class="button1" type="submit" onclick="alert('Decline')">Decline</button>
+                <button class="button2" type="submit" onclick="alert('Allow')">Allow</button>
+                </div>
+            </div>
+            <!--Box2-->
+            <div class="Box2-baner3">
+                <p>App uses cookies to personalize your experience on our website. By continuing to use this site, you agree to our <span style="color:#E6842E ;">cookie policy.</span> <button type="submit" onclick="alert('OK')">OK</button>
+                </p>
+            </div>
+        </section>
+        <!--Baner4-->
+        <section class="Baner4">
+            <!--Box1-baner4-->
+            <div class="Box1-baner4">
+                <h1> <img src="Baner4.1.png" alt="вставка банера 4.1"> </h1>
+                <p>We use cookies to learn how you interact with our content, and show you relevant content and ads based on your browsing
+                history. You can adjust your settings below. Here’s our <ins>policy</ins></p>
+                <div> Manage your preferences
+                <button class="button1-4" type="submit" onclick="alert('Accept')">Accept</button>
+            </div>
+            <!--Box2-baner4-->
+            <div class="Box2-baner4">
+                <h1> <img src="Baner4.png" alt="вставка банера 4"> </h1>
+                <p> We use our own cookies so that we can show you this website and understand how you use them to improve the services we offer</p>
+                
+                <button class="button2-4"  type="submit" onclick="alert('Manage cookies')">Manage cookies</button>
+                <button class="button3-4  type="submit" onclick="alert('Accept allt')">Accept all</button>
+            </div>
+        </section>
+           
+         <!--Baner5-->
+        <section class="Baner5">
+            <!--Box1-baner5-->
+            <div class="Box1-baner5">
+                <h1>Cookies</h1>
+                <p>We use cookies to ensure that we give you the best experience on our website.</p>
+                <button class="button1-5" type="submit" onclick="alert('Accept ')">Accept </button>
+            </div>
+            <!--Box2-baner5-->
+            <div class="Box2-baner5">
+                <p>We care about your data, and we'd love to use cookies to make your experience better.</p>
+                <span style="color:#6666FF ;">Privacy Policy</span>
+                <button class="button2-5" type="submit" onclick="alert('Accept ')">Accept </button>
+            </div>
+        </section>
+            </div>
+        </section>
+    </div>    
 </body>
-
 </html>
+\
+
+
+
+
+
+
+
+
+
 

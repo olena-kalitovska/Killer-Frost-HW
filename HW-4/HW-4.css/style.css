@@ -1,0 +1,54 @@
+.parent-relative {
+     background: rosybrown;
+    width: 60%;
+    height: 400px;
+}
+.children-absolute {
+    background: black;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+}
+.grantparent {
+    width: 100%;
+  height: 500px;
+  padding: 50px;
+  background: orange;
+  position: relative;
+}
+.call-buttom {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: cyan;
+    padding: 5px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+
+
+}
+.col {
+    width: 30px;
+    height: 100px;
+    margin: 20px;
+    background-color: darkolivegreen;
+}
+.left {
+float: left;
+background-color: deeppink;
+}
+.right {
+    float: right;
+    background-color: gold;
+}
+.clearfix {
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    clear: both;
+    
+}
