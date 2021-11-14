@@ -1,54 +1,120 @@
-.parent-relative {
-     background: rosybrown;
-    width: 60%;
-    height: 400px;
+body {
+    font-family: Lato;
 }
-.children-absolute {
-    background: black;
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  left: 0;
-  top: 0;
-
-}
-.grantparent {
+header {
+    background-color:#ED4C5C ;
     width: 100%;
-  height: 500px;
-  padding: 50px;
-  background: orange;
-  position: relative;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    color: #FFFFFF;
+    position: relative;
 }
-.call-buttom {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
-    background-color: cyan;
-    padding: 5px;
-    position: fixed;
-    right: 15px;
-    bottom: 15px;
+.Header-content h1 {
+    position: absolute;
+    width: 408px;
+    height: 107px;
+    left: 3px;
+    top: 22px;
+    margin-top: 122px;
+    margin-right: 830px;
+    margin-bottom: 271px;
+    margin-left: 165px;
+}
+.Header-content p {
+    position: absolute;
+    width: 408px;
+    height: 64px;
+    left: 165px;
+    top: 253px;
+    padding-top: 24px;
+}
+.IMG1 {
+    position: absolute;
+    width: 134px;
+    height: 32px;
+    left: 163px;
+    top: 357px;
+    padding-top: 40px;
+}
+.IMG2 {
+    position: absolute;
+    width: 445px;
+    height: 264px;
+    left: 738px;
+    top: 127px;
+}
+.Main-content {
+    width: 100%;
+    height: 33%;
+    left: 0px;
+    top: 500px;
+    background-color:#FFFFFF ;
+    position: relative;
+    color: black;
+}
+.Main-content h2 {
+    position: absolute;
+    width: 445px;
+    height: 27px;
+    left: 176px;
+    top: -396px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+}
+.Main-content p {
+    position: absolute;
+    width: 434px;
+    height: 64px;
+    left: 176px;
+    top: -280px;
 
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+}
+.Main-content form {
+    position: absolute;
+    width: 540px;
+    height: 305px;
+    left: 735px;
+    top: -400px;
+}
+footer {
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    top: 1045px;
+    background-color:#FAFAFA ;
+    position: relative;
 
 }
-.col {
-    width: 30px;
-    height: 100px;
-    margin: 20px;
-    background-color: darkolivegreen;
+.conteiner {
+    width: 25%;
+    height: 264px;
+    top: 10px;
+    color:black ;
+    
 }
-.left {
-float: left;
-background-color: deeppink;
+.first {
+    float: left;
 }
-.right {
-    float: right;
-    background-color: gold;
+.second {
+    float: left;
+}
+.third  {
+    float: left
+}
+.fourth {
+    float: left
 }
 .clearfix {
     width: 0px;
     height: 0px;
     visibility: hidden;
     clear: both;
-    
 }
+    
