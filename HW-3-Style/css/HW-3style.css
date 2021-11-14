@@ -284,6 +284,7 @@ body {
 .Baner5 {
     width: 680px;
     height: 260px;
+    font-family: Inter;
 }
 /*Box1-baner5*/
 .Box1-baner5 {
@@ -299,12 +300,18 @@ body {
     line-height: 48px;
     background-color: #FFFFFF;
     border-radius: 16px;
+    margin-top: 100px;
 }
 .Box1-baner5 h1 {
     text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 48px;
 }
 .Box1-baner5 p {
     text-align: center;
+    font-size: 16px;
+    line-height: 24px;
 }
 .Box1-baner5 button {
     margin-right: 15px;
@@ -323,8 +330,10 @@ body {
     height: 127px;
     margin-left: 370px;
     margin-top: -190px;
-    padding-right: 15px;
-    padding-bottom: 35px;
+    padding-right: 5px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-top:7px;
 }
 .Box2-baner5 p {
     width: 288px;
@@ -335,6 +344,8 @@ body {
 }
 .Box2-baner5 button {
     background: #6666FF;
-    border-radius:10px ;   
+    border-radius:10px ;
+    color: #FFFFFF; 
+    margin-left: 100px;  
 }
 
