@@ -1,15 +1,21 @@
 body {
     font-family: Lato;
+   margin: 0;
+}
+.main_class {
+    width:1326px ;
+    margin: 0;
 }
 header {
-    background-color:#ED4C5C ;
-    width: 100%;
+    background-color:#ED4C5C;
+    margin: 0;
     height: 500px;
     left: 0px;
     top: 0px;
     color: #FFFFFF;
     position: relative;
     padding: 35px;
+   
 }
 .Header-content h1 {
     position: absolute;
@@ -46,13 +52,14 @@ header {
     top: 127px;
 }
 .Main-content {
-    width: 100%;
+    margin: 0;
     height: 300px;
     left: 0px;
     top: 500px;
     background-color:#FFFFFF ;
     position: relative;
-    color: black;
+    color: black; 
+    margin: auto;
 }
 .Main-content h2 {
     position: absolute;
@@ -70,7 +77,6 @@ header {
     height: 64px;
     left: 176px;
     top: -280px;
-
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -112,13 +118,13 @@ header {
     color: #FFFFFF;
 }
 footer {
-    width: 100%;
+    margin: 0;
     height: 388px;
     left: 0px;
     top: 219px;
     background-color:#FAFAFA ;
     position: relative;
-    padding: 15px;
+    padding: 15px;    
 }
 .conteiner {
     width: 25%;
