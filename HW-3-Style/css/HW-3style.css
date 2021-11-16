@@ -1,12 +1,17 @@
 body {
     background-color: #E5E5E5;
-    position: absolute;
-    width: 1440px;
-    height: 990px;
+    position: relative;
+    width: 100%px;
+    padding: 18px;
     left: 24px;
     top: 24px;
 }
-
+.header {
+    position: absolute;
+    font-family: Inter;
+    width: auto;
+    padding: 15px;
+}
 /*V.1.1.*/
 .header1 {
     width: 82px;
@@ -16,7 +21,9 @@ body {
     display: flex;
     color: #0B2239;
     opacity: 0.3;
-    font-family: Inter; 
+    font-family: Inter;
+    position: absolute;
+    top: -18px; 
 }
 /*Cookie Banners*/
 .header2 {
@@ -29,7 +36,8 @@ body {
     line-height: 133px;
     display: flex;
     align-items: center;
-    font-family: Inter;   
+    font-family: Inter;
+    align-items: center;   
 }
 /*Made by @adarshdk*/
 .header3 {
@@ -47,10 +55,13 @@ body {
 /* maine-sectione*/
 .maine-sectione {
     position: relative;
-    width: 1488px;
-    height: 1430px;
+    width: 100%;
     margin-top: 350px;
-    border: 300px; 
+    border: 300px;
+    padding: 25px;
+}
+.substrate {
+    
 }
 /*Examples*/
 .examples {
@@ -61,14 +72,13 @@ body {
 
 /*Baner1*/
 .Baner1 {
-    padding-top: 16px;
-    padding-left: 170px;
-    width: 1440px;
-    height: 72px;
+    padding: 18px;
+    width: 100%;
     left: 0px;
     top: 0px;
     background: #0B2239;
-    font-family: Inter;  
+    font-family: Inter;
+    position: relative;    
 }
 .content-baner1 {
     color: #ffffff;
@@ -80,16 +90,16 @@ body {
 }
 .Baner1 div {
     margin-right: 30px;
-    margin-left: 864px;
-    margin-top: -36px;
+    margin-left: 993px;
+    margin-top: -34px;
 }
 .Baner1 p {
     padding-right: 450px;
     display: inline-block;
     font-size: 13px;
     line-height: 20px;
-    margin-left:-78px;
-    margin-top: 18px;
+    margin-left:23px;
+    margin-top: -8px;
 }
 .Baner1 ins {
     color:#4AD295;
@@ -97,45 +107,54 @@ body {
 .Baner1 button {
     background-color: #4AD295 ;
     margin-left: 6px;
+    border: none;
+    color: #ffffff;
+    width: 134px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    
+    padding: 8px;
+    margin-right: ;
 }
 /*Baner2*/
 .Baner2 {
     background-color: #2B2627;
-    width: 1462px;
-    height: 52px;
-    padding-top: 0px;
-    padding-bottom: 2px;
-    padding-right: 144px;
+    width: 102%;
+    padding: 5px;
     margin-top: 24px;
     font-family: Inter;
-    
+    position: relative;
 }
 .Baner2 p {
     width: 1440px;
-    height: 20px;
-    padding-top: 16px;
-    padding-left: 375.5px;
-    padding-bottom: 16px;
-    padding-right: 375.5px;
-    color: #ffffff;  
+    padding: 4px;
+    color: #ffffff;
+    margin-left: 148px;  
+}
+.img_baner2{
+    margin-left: 15px;
 }
 /*Baner3*/
 .Baner3 {
     position: relative;
     font-family: Inter;
+    top: 72px;
 }
 /*Box1-baner3*/
 .Box1-baner3 {
     background-color: #ffffff;
     border-radius: 16px;
-    width: 560px;
-    height: 100px;
+    width: 661px;
+    padding: 15px;
     font-size: 14px;
     line-height: 20px;
 }
 .buttons-box1 {
-    margin-top: -70px;
-    margin-left: 25px;
+   position: absolute;
+   top: 28px;
+   left: 171px;
+   margin-left: -17px;    
 }
 .button1 {
     border-radius: 100px;
@@ -143,7 +162,9 @@ body {
     height: 39px;
     padding: 3px;
     margin-left: 288px;
-   
+    border: none;font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;  
 }
 .button2 {
     border-radius: 100px;
@@ -152,28 +173,38 @@ body {
     padding: 3px;
     color: #ffffff;
     background-color: #EA4C89;
+    border: none;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
 }
 .Box1-baner3 p {
     width: 362px;
-    height: 72px;
     font-size: 14px;
     line-height: 20px;
     padding: 9px;
+    margin-left: 62px;
+    margin-top: -15px;
 }
 .Box1-baner3 img {
-    padding-top: 2px;
-    padding-left: 2px;
+    position: absolute;
+    padding: 10px;
+    width: 35px;
+    margin-left: -71px;
+    margin-top: 10px;
+    background-color: #e6dbdf;
+    border-radius: 16px;
 }
 /*Box2-baner3*/
 .Box2-baner3 {
     background-color: #26262B;
     border-radius: 16px;
-    width: 535px;
-    height: 89px;
+    width: 667px;
     margin-top: 24px;
     padding: 10px;
     font-size: 12px;
     line-height: 20px;
+    position: relative;
 }
 .Box2-baner3 p {
     color: #ffffff;
@@ -181,79 +212,91 @@ body {
     font-size: 12px;
     line-height: 20px;
     margin-right: 134px;
+    margin-bottom: -33px;
+    margin-top: 10px;
 }
  .Box2-baner3 button {
-     width: 110px;
-     height: 39px;
-     padding: 3px;
-     margin-top: -84px; 
-     margin-left: 403px;
+     width: 100px;
+     margin-bottom: 10px;
+     padding: 10px;
+     margin-top: -21px;
+     margin-left: 550px;
      border-radius: 12px;
+     border: none;
  }
  /*Baner4*/
 .Baner4 {
     font-family: Roboto;
     padding: 24px;
     width: 417px;
-    height: 210px;
-    margin-left: 0px;
+    margin-right: 0px;
+    margin-left: -25px;
+    margin-top: 150px;
 }
 /*Box1-baner4*/   
 .Box1-baner4 {
     background-color:#1C2540 ;
     color: #ffffff;
     border-radius: 18px;
-    width: 360px;
-    height: 250px;
+    width: 339px;
+    height: 215px;
+    padding: 15px;
     margin-left: 0px;
     padding-bottom: 15px;
+    position: relative;
+    margin-right: 0px;
 }
 .Box1-baner4 h1 {
-    padding: 15px;
-    padding-left: 15px;
-    padding-top: 25px;
-    padding-right: 15px;
-    padding-bottom: 0px;
+    font-size: 14px;
+    line-height: 20px;
+    width: 20px;
+    padding: 4px;
 }
 .Box1-baner4 p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 20px; 
     border: 2px;
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-right: 15px;   
+    width: 314px;
+    padding: 4px;  
 }
 .Box1-baner4 div {
     font-size: 14px;
     line-height: 20px;
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-right: 15px;
+    width: 400px;
+    padding: 4px;
+    margin-bottom:-45px;
+}
+.Box2-baner4 img {
+
 }
 .button1-4 {
-    margin-left: 251px;
-    margin-top: -55px; 
+    margin-left: 100px;
+    margin-top: 0px; 
     background-color: #09B3AF;
     color: #ffffff;
-    padding: 8px;
+    padding: 15px;
     border-radius: 12px; 
+    border: none;
+    font-weight: 500;
+    margin-right: ;
 }
 /*Box2-baner4*/
 .Box2-baner4 {
     background-color: #ffffff;
     color: black;
     border-radius: 18px;
-    width: 360px;
-    height: 250px;
+    width: 338px;
+    padding: 15px;
     margin-left: 457px;
-    margin-top: -230px;
+    margin-top: -244px;
+    position: relative;
 }
 .Box2-baner4 h1 {
     padding: 15px;
     padding-left: 15px;
     padding-top: 1px;
     padding-right: 15px;
-    padding-bottom: 0px;
+    margin-bottom: -26px;
 }
 .Box2-baner4 p {
     font-size: 14px;
@@ -262,7 +305,8 @@ body {
     padding-left: 15px;
     padding-top: 15px;
     padding-right: 15px;
-    color: #687F8C;   
+    color: #687F8C;
+    margin-top: 10px;   
 }
 .button2-4 {
     background-color: #EAF0F4;
@@ -270,7 +314,8 @@ body {
     padding: 8px;
     border-radius: 18px;
     width: 160px;
-    height: 32px;    
+    height: 32px; 
+    border: none;   
 }
 .button3-4 {
     background-color:#40C1A7 ;
@@ -278,22 +323,20 @@ body {
     padding: 8px;
     border-radius: 18px;
     width: 160px;
-    height: 32px;  
+    height: 32px; 
+    border: none; 
 }
 /*Baner5*/
 .Baner5 {
     width: 680px;
     height: 260px;
     font-family: Inter;
+    margin-top: 72px;
 }
 /*Box1-baner5*/
 .Box1-baner5 {
     width: 250px;
-    height: 240px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding: 15px;
     color:#15295A ;
     font-weight: 900;
     font-size: 28px;
@@ -314,26 +357,25 @@ body {
     line-height: 24px;
 }
 .Box1-baner5 button {
-    margin-right: 15px;
-    margin-bottom: 25px;
-    margin-left: 180px;
+    margin-left: 73px;
+    margin-bottom: 25px; 
     border-radius: 16px;
     background-color: #4A7EFF;
     color: #ffffff;
-}
+    border: none;
+    padding: 25px;
+    font-size: 16px;
+    line-height: 24px;
+    }
 /*Box2-baner5*/
 .Box2-baner5 {
     background-color: #ffffff;
     color: black;
     border-radius: 8px;
     width: 320px;
-    height: 127px;
+    padding: 25px;
     margin-left: 370px;
-    margin-top: -190px;
-    padding-right: 5px;
-    padding-bottom: 7px;
-    padding-left: 15px;
-    padding-top:7px;
+    margin-top: -308px;  
 }
 .Box2-baner5 p {
     width: 288px;
@@ -344,8 +386,12 @@ body {
 }
 .Box2-baner5 button {
     background: #6666FF;
-    border-radius:10px ;
+    border-radius:5px ;
     color: #FFFFFF; 
-    margin-left: 100px;  
+    margin-left: 100px;
+    border: none; 
+    padding: 10px;
+    width: 88px;
+   margin-top: -7px;
 }
 

@@ -117,4 +117,9 @@ footer {
     visibility: hidden;
     clear: both;
 }
+.Fix-bo {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
     
