@@ -1,10 +1,12 @@
 body {
     font-family: Lato;
-   margin: 0;
+    margin: 0;
+    min min-width: 1400px;
 }
 .main_class {
-    width:1326px ;
-    margin: 0;
+    width:1400px ;
+    margin: 0 auto;
+    padding: 0px,15px;
 }
 header {
     background-color:#ED4C5C;
@@ -13,56 +15,45 @@ header {
     left: 0px;
     top: 0px;
     color: #FFFFFF;
-    position: relative;
-    padding: 35px;
-   
+    padding: 35px; 
 }
 .Header-content h1 {
-    position: absolute;
     width: 408px;
-    height: 107px;
-    left: 3px;
-    top: 22px;
-    margin-top: 122px;
-    margin-right: 830px;
-    margin-bottom: 271px;
-    margin-left: 165px;
-}
+    margin-top: 89px;
+    margin-left: 7px;
+    margin-bottom: 38px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px
+    }
 .Header-content p {
-    position: absolute;
-    width: 408px;
+    width: 510px;
     height: 64px;
-    left: 165px;
-    top: 253px;
-    padding-top: 24px;
+    margin-left: 2px;
 }
 .IMG1 {
-    position: absolute;
     width: 140px;
     height: 32px;
-    left: 170px;
-    top: 380px;
     padding-top: 40px;
 }
 .IMG2 {
-    position: absolute;
+   
     width: 445px;
     height: 264px;
-    left: 738px;
-    top: 127px;
+    margin-top: -226px;
+    margin-left: 551px;
 }
 .Main-content {
     margin: 0;
-    height: 300px;
+    height: 500px;
     left: 0px;
     top: 500px;
     background-color:#FFFFFF ;
-    position: relative;
     color: black; 
     margin: auto;
+    padding: 55px;
 }
 .Main-content h2 {
-    position: absolute;
     width: 445px;
     height: 27px;
     left: 176px;
@@ -72,7 +63,6 @@ header {
     line-height: 43px;
 }
 .Main-content p {
-    position: absolute;
     width: 434px;
     height: 64px;
     left: 176px;
@@ -84,11 +74,11 @@ header {
     line-height: 140%;
 }
 .Main-content form {
-    position: absolute;
     width: 540px;
     height: 305px;
-    left: 735px;
-    top: -400px;
+    margin-left: 689px;
+    margin-top: -128px;
+    margin-bottom: -33px;
 }
 .First_Name {
     height: 47px;
@@ -105,7 +95,7 @@ header {
     margin-top: 20px;
 }
 .Service{
-    margin-top: 153px;
+    margin-top: -69px;
     height: 50px;
     width: 437px;
 }
@@ -123,7 +113,6 @@ footer {
     left: 0px;
     top: 219px;
     background-color:#FAFAFA ;
-    position: relative;
     padding: 15px;    
 }
 .conteiner {
@@ -131,7 +120,6 @@ footer {
     height: 264px;
     top: 10px;
     color:black ;
-    
 }
 footer h3 {
     margin-bottom: 35px;
