@@ -73,7 +73,7 @@ body {
 /*Baner1*/
 .Baner1 {
     padding: 18px;
-    width: 100%;
+    width: 1279px;
     left: 0px;
     top: 0px;
     background: #0B2239;
@@ -120,7 +120,7 @@ body {
 /*Baner2*/
 .Baner2 {
     background-color: #2B2627;
-    width: 102%;
+    width: 1302px;
     padding: 5px;
     margin-top: 24px;
     font-family: Inter;
@@ -150,11 +150,15 @@ body {
     font-size: 14px;
     line-height: 20px;
 }
+.maine-conteiner-baner3-box1 {
+    padding-top: 17px;
+}
 .buttons-box1 {
    position: absolute;
    top: 28px;
    left: 171px;
-   margin-left: -17px;    
+   margin-left: -17px;
+   padding-top: 17px;    
 }
 .button1 {
     border-radius: 100px;
@@ -270,15 +274,15 @@ body {
 
 }
 .button1-4 {
-    margin-left: 100px;
+    margin-left: 85px;
     margin-top: 0px; 
     background-color: #09B3AF;
     color: #ffffff;
-    padding: 15px;
+    padding: 8px;
     border-radius: 12px; 
     border: none;
     font-weight: 500;
-    margin-right: ;
+    width: 79px;
 }
 /*Box2-baner4*/
 .Box2-baner4 {
@@ -338,7 +342,6 @@ body {
     width: 250px;
     padding: 15px;
     color:#15295A ;
-    font-weight: 900;
     font-size: 28px;
     line-height: 48px;
     background-color: #FFFFFF;
@@ -357,13 +360,13 @@ body {
     line-height: 24px;
 }
 .Box1-baner5 button {
-    margin-left: 73px;
+    margin-left: 88px;
     margin-bottom: 25px; 
     border-radius: 16px;
     background-color: #4A7EFF;
     color: #ffffff;
     border: none;
-    padding: 25px;
+    padding: 17px;
     font-size: 16px;
     line-height: 24px;
     }
