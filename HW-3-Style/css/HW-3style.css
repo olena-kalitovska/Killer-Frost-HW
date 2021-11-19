@@ -273,13 +273,16 @@ body {
 .Box2-baner4 img {
 
 }
+.buttons2-3 {
+    padding: 5px;
+}
 .button1-4 {
     margin-left: 85px;
     margin-top: 0px; 
     background-color: #09B3AF;
     color: #ffffff;
     padding: 8px;
-    border-radius: 12px; 
+    border-radius: 6px; 
     border: none;
     font-weight: 500;
     width: 79px;
@@ -316,7 +319,7 @@ body {
     background-color: #EAF0F4;
     color: #687F8C;
     padding: 8px;
-    border-radius: 18px;
+    border-radius: 6px;
     width: 160px;
     height: 32px; 
     border: none;   
@@ -325,7 +328,7 @@ body {
     background-color:#40C1A7 ;
     color: #ffffff;
     padding: 8px;
-    border-radius: 18px;
+    border-radius: 6px;
     width: 160px;
     height: 32px; 
     border: none; 
@@ -360,15 +363,16 @@ body {
     line-height: 24px;
 }
 .Box1-baner5 button {
-    margin-left: 88px;
+    margin-left: 76px;
     margin-bottom: 25px; 
     border-radius: 16px;
     background-color: #4A7EFF;
     color: #ffffff;
     border: none;
-    padding: 17px;
+    padding: 10px;
     font-size: 16px;
     line-height: 24px;
+    width: 105px;
     }
 /*Box2-baner5*/
 .Box2-baner5 {
@@ -378,7 +382,7 @@ body {
     width: 320px;
     padding: 25px;
     margin-left: 370px;
-    margin-top: -308px;  
+    margin-top: -290px;  
 }
 .Box2-baner5 p {
     width: 288px;
