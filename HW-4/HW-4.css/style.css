@@ -45,13 +45,13 @@ header {
 }
 .Main-content {
     margin: 0;
-    height: 500px;
+    height: 444px;
     left: 0px;
     top: 500px;
     background-color:#FFFFFF ;
     color: black; 
     margin: auto;
-    padding: 55px;
+    padding: 199px;
 }
 .Main-content h2 {
     width: 445px;
