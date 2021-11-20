@@ -369,11 +369,11 @@ body {
 .Box1-baner5 button {
     margin-left: 76px;
     margin-bottom: 25px; 
-    border-radius: 16px;
+    border-radius: 43px;
     background-color: #4A7EFF;
     color: #ffffff;
     border: none;
-    padding: 10px;
+    padding: 10px 32px;
     font-size: 16px;
     line-height: 24px;
     width: 105px;

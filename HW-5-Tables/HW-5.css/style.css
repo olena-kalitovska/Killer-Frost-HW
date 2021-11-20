@@ -1,0 +1,35 @@
+body {
+    min-width:1200px ;
+    background-color: rgb(44, 44, 44);
+    font-family: 'Lato', sans-serif;
+}
+.maine_container {
+    width:1200px ;
+    margin: 0px auto;
+    padding: 0px,15px;
+}
+.table1 {
+    margin-top: 150px;
+}
+table {
+    width: 800px;
+    color: white;
+}
+img {
+    height: 19px;
+    
+}
+tr {
+    padding-right: 10px;
+}
+th {
+    padding: 5px;
+    
+}
+td {
+    opacity: 0.2;
+}
+p {
+    margin-left: 0px;
+    padding-left: 0px;
+}
