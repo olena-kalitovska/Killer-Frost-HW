@@ -3,33 +3,88 @@ body {
     background-color: rgb(44, 44, 44);
     font-family: 'Lato', sans-serif;
 }
+/*Class to all tables*/
 .maine_container {
     width:1200px ;
     margin: 0px auto;
-    padding: 0px,15px;
+    padding-left: 70px;
 }
+.first_column {
+    border-left-color:rgb(44, 44, 44) ;
+    opacity: 1;
+}
+.third_column {
+    opacity: 1;
+    width: 15px;
+    height: 10px;
+}
+.dots {
+    margin-left: 50px;
+    margin-left: 209px;
+    margin-right: -170px;
+}
+/*Tabel1*/
 .table1 {
     margin-top: 150px;
 }
+.third_column_tabel1 {
+    width: 57px;
+    height: 10px;
+    
+}
+
+/*Tabels2*/
+.third_column_tabel2 {
+    width: 57px;
+    height: 10px;
+    opacity: 1;
+}
+/*Tabels3*/
+.table3 {
+    opacity:0.8;
+    border-radius: 6px;
+}
+/*Tags*/
 table {
     width: 800px;
     color: white;
+    border-radius: 6px;
 }
 img {
     height: 19px;
-    
 }
+
 tr {
     padding-right: 10px;
 }
 th {
     padding: 5px;
-    
+    width: 50px;
+   
 }
 td {
     opacity: 0.2;
+    width: 50px;
+    
 }
-p {
-    margin-left: 0px;
-    padding-left: 0px;
+
+
+
+
+
+
+
+
+.search {
+    border: 1px solid #000;
+    padding: 5px 5px 5px 40px;
+    height: 31px;
+    background: url(https://fonts.google.com/icons?selected=Material+Icons) no-repeat 3px 1px;
+    background-size: auto 90%;
+    border-radius: 6px;
+    border-color: rgb(44, 44, 44);
+    margin-right: -122px;
+    margin-top: 0px;
+    margin-left: -85px;
+    background-color: rgb(60, 62, 63);
 }

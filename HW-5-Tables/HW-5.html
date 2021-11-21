@@ -14,33 +14,33 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Inter:wght@400;600&family=Lato:wght@400;700&family=Nanum+Gothic:wght@400;700&family=Play:wght@400;700&family=Roboto:ital,wght@0,500;1,400&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="HW-5.css/style.css">
+    <link rel="stylesheet" href="HW-5.css/HW-5-style.css">
 </head>
 <body>
     <div class="maine_container">
         <!--Tables1-->
-        <table class="table1" border="2" widht="1300  ">
+        <table class="table1" rules="rows" frame="border" cellpadding="10" widht="1300">
             <thead>
                 <tr>
-                    <th> <p>Name <img src="down arrow.png" alt="arrow"></p></th>
+                    <th class="first_column "> Name <img src="pictures_HW5/down arrow.png" alt="arrow"></th>
                     <th colspan="2">Date</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>1</td>
+                    <td class="first_column"> File.pdf </td>
                     <td>3 minets ago</td>
-                    <td><img src="three_dots.png" alt="dots"></td>
+                    <td class="third_column_tabel1"><img class="dots" src="pictures_HW5/three_dots.png" alt="dots"></td>
                 </tr>
                 <tr>
-                    <td>1</td>
+                    <td class="first_column"> File.pdf </td>
                     <td>Yesterday</td>
-                    <td><img src="three_dots.png" alt="dots"></td>
+                    <td class="third_column_tabel1"><img class="dots" src="pictures_HW5/three_dots.png" alt="dots"></td>
                 </tr>
                 <tr>
-                    <td>1</td>
+                    <td class="first_column"> File.pdf </td>
                     <td>June 1st,2019</td>
-                    <td><img src="three_dots.png" alt="dots"></td>
+                    <td class="third_column_tabel1"><img class="dots" src="pictures_HW5/three_dots.png" alt="dots"></td>
                 </tr>
             </tbody>
         </table>
@@ -49,35 +49,68 @@
         <br />
         <br />
         <!--Tables2-->
-        <table border="2">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
+        <form>
+            <table class="table2" rules="rows" frame="border" cellpadding="10" widht="1300">
+                <thead>
+                    <tr>
+                        <th>
+                            <img src="pictures_HW5/minus-box.png" alt="box">Name <img src="pictures_HW5/down arrow.png" alt="arrow">
+                        </th>
+                        <th colspan="2">Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="first_column"> <input type="checkbox" name="line" value=" line1"/> File.pdf </td>
+                        <td>3 minets ago</td>
+                        <td class="third_column_tabel2"><img class="dots" src="pictures_HW5/three_dots_bolt4.png" alt="dots"/></td>
+                    </tr>
+                    <tr>
+                        <td class="first_column"> <input type="checkbox" name="line" value=" line2" checked/> File.pdf </td>
+                        <td>Yesterday</td>
+                        <td class="third_column_tabel2"><img class="dots" src="pictures_HW5/three_dots_bolt.png" alt="dots"/></td>
+                    </tr>
+                    <tr>
+                        <td class="first_column"> <input type="checkbox" name="line" value=" line3"/> File.pdf </td>
+                        <td>June 1st,2019</td>
+                        <td class="third_column_tabel2"><img class="dots"src="pictures_HW5/three_dots_bolt.png" alt="dots"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        <br />
+        <br />
+        <br />
+        <br />
         <!--Tables3-->
-        <table border="2">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
+        <form>
+            <table class="table3" rules="rows" frame="border" cellpadding="10" widht="1300  ">
+                <thead>
+                    <tr>
+                        <th>Name <img src="pictures_HW5/down arrow.png" alt="arrow"></th>
+                        <th>Date</th>
+                        <th> <input class="search" type="search" name="Search" value="" placeholder="Search"/></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="first_column"><img src="pictures_HW5/box-blue.png" alt="box"> File.pdf </td>
+                        <td>3 minets ago</td>
+                        <td class="third_column"><img class="dots" src="pictures_HW5/three_dots_bolt.png" alt="dots"></td>
+                    </tr>
+                    <tr>
+                        <td class="first_column"> <img src="pictures_HW5/box-blue.png" alt="box">File.pdf </td>
+                        <td>Yesterday</td>
+                        <td class="third_column"> <img class="dots" src="pictures_HW5/three_dots_bolt.png" alt="dots"></td>
+                    </tr>
+                    <tr>
+                        <td class="first_column"> <img src="pictures_HW5/box-blue.png" alt="box">File.pdf </td>
+                        <td>June 1st,2019</td>
+                        <td class="third_column"><img class="dots" src="pictures_HW5/three_dots_bolt.png" alt="dots"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
     </div>
 </body>
 </html>
