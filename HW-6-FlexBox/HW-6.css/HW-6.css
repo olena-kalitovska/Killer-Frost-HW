@@ -1,0 +1,135 @@
+body {
+    background-color: #E5E5E5;
+}
+.conteiner {
+    max-width: 1400px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    margin: 0px auto;
+}
+@media(max-width:1400px) {
+    .conteiner {
+        max-width: 970px;
+    }
+}
+@media(max-width:992px) {
+    .conteiner {
+        max-width: 750px;
+    }
+}@media(max-width:767px) {
+    .conteiner {
+        max-width: none;
+    }
+}
+/*Header*/
+.container_header {
+
+}
+
+.pictures_header {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.picture_neader1 {
+    margin-right: 5px;
+}
+.button_header {
+    background-color: white;
+    color:#212353 ;
+    border-radius: 26px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 29px;
+    padding-right: 33px;
+    font-weight: 800;
+    font-size: 16px;
+    border: none;
+    margin-left: 931px;
+    margin-bottom: 109px;
+    margin-top: -21px;
+}
+.arrow_header {
+    margin-left: 5px;
+}
+.flex-container1 {
+    color: #212353;
+    margin-top: -21px;
+    margin-left: 121px;
+    display: flex;
+    flex-direction: row;
+}
+.flex-block-1 {
+    font-size: bold;
+    margin-right: 40px;
+    font-weight: 800;
+    font-size: 16px;
+    
+}
+.flex-block-2 {
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.flex-block-3 {
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.flex-block-4 {
+    font-weight: 500;
+    font-size: 16px;
+}
+.header1 {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 110%;
+    max-width: 600px;  
+}
+.header2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    max-width: 300px; 
+}
+.learn_more {
+    background: #9C69E2;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    padding: 16px;
+    margin-top: 25px;
+
+}
+.picture_neader2 {
+    margin-left: 327px;
+    margin-top: -321px;
+}
+/*Maine*/
+/* Box1*/
+.flex-container2 {
+    background-color:  #f063b826;;
+    border-radius: 50px;
+    border: none;
+    flex-direction: row;
+
+} 
+
+.flex-container2 h2 {
+    color: #212353;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    max-width: 300px;
+    
+     
+} 
+.flex-container2 p {
+    color: #4B5D68;
+    max-width: 300px;
+    margin-top: 60px;
+}
+.flex-blok-maine-box1-2 {
+    
+}
