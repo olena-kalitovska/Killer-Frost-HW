@@ -116,6 +116,7 @@ body {
     margin-top: 100px;
     margin-right: 242px;
     margin-left: 4px;
+    min-width: 500px;
 } 
 .flex-container2 h2 {
     color: #212353;
