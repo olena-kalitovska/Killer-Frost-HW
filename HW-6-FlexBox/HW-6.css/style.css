@@ -1,0 +1,23 @@
+/** Avenir-Medium 500 **/
+@font-face {
+	font-family: 'Avenir';
+	src: url('../fonts//Avenir 65 Medium.eot');
+	src: local('☺'), url('../fonts//Avenir 65 Medium.woff') format('woff'), url('../fonts//Avenir 65 Medium.ttf') format('truetype'), url('../fonts//Avenir 65 Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+/** Avenir-ExtraBold 800 **/
+@font-face {
+	font-family: 'Avenir';
+	src: url('../fonts//Metropolis-ExtraBold.eot');
+	src: local('☺'), url('../fonts//Metropolis-ExtraBold.woff') format('woff'), url('../fonts//Metropolis-ExtraBold.ttf') format('truetype'), url('../fonts//Metropolis-ExtraBold.svg') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}
+/** Avenir-black 900 **/
+@font-face {
+	font-family: 'Avenir';
+	src: url('../fonts//Metropolis-Black.eot');
+	src: local('☺'), url('../fonts//Metropolis-Black.woff') format('woff'), url('../fonts//Metropolis-Black.ttf') format('truetype'), url('../fonts//Metropolis-Black.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;

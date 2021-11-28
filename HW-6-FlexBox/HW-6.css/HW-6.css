@@ -7,8 +7,46 @@ body {
     padding-top: 15px;
     padding-bottom: 35px;
     margin: 0px auto;
-    display: flex;
-    flex-direction: column;
+}
+/** Avenir-Regular 400 **/
+@font-face {
+	font-family: 'Avenir';
+	src: url('../fonts///Avenir 45 Book Regular.eot');
+	src: local('☺'), url('../fonts//Avenir 45 Book Regular.woff') format('woff'), url('../fonts//Avenir 45 Book Regular.ttf') format('truetype'), url('../fonts//Avenir 45 Book Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/** Avenir-Medium 500 **/
+@font-face {
+	font-family: 'Avenir';
+	src: url('../fonts//Avenir 65 Medium.eot');
+	src: local('☺'), url('../fonts//Avenir 65 Medium.woff') format('woff'), url('../fonts//Avenir 65 Medium.ttf') format('truetype'), url('../fonts//Avenir 65 Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+/** Avenir-ExtraBold 800 **/
+@font-face {
+	font-family: 'Avenir';
+	src: url('../fonts//Metropolis-ExtraBold.eot');
+	src: local('☺'), url('../fonts//Metropolis-ExtraBold.woff') format('woff'), url('../fonts//Metropolis-ExtraBold.ttf') format('truetype'), url('../fonts//Metropolis-ExtraBold.svg') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}
+/** Avenir-black 900 **/
+@font-face {
+	font-family: 'Avenir';
+	src: url('../fonts//Metropolis-Black.eot');
+	src: local('☺'), url('../fonts//Metropolis-Black.woff') format('woff'), url('../fonts//Metropolis-Black.ttf') format('truetype'), url('../fonts//Metropolis-Black.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+/** Helvetica Regular-400 **/
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../fonts//Helvetica Regular.eot');
+	src: local('☺'), url('../fonts//Helvetica Regular.woff') format('woff'), url('../fonts//Helvetica Regular.ttf') format('truetype'), url('../fonts//Helvetica Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 @media(max-width:1400px) {
     .conteiner {
@@ -48,6 +86,7 @@ body {
     margin-left: 931px;
     margin-bottom: 109px;
     margin-top: -21px;
+    font-family: Avenir;
 }
 .arrow_header {
     margin-left: 5px;
@@ -60,37 +99,42 @@ body {
     flex-direction: row;
 }
 .flex-block-1 {
-    font-size: bold;
     margin-right: 40px;
     font-weight: 800;
     font-size: 16px;
+    font-family: Avenir;
 }
 .flex-block-2 {
     margin-right: 40px;
     font-weight: 500;
     font-size: 16px;
+    font-family: Avenir;
 }
 .flex-block-3 {
     margin-right: 40px;
     font-weight: 500;
     font-size: 16px;
+    font-family: Avenir;
 }
 .flex-block-4 {
     font-weight: 500;
     font-size: 16px;
+    font-family: Avenir;
 }
 .header1 {
     font-weight: bold;
     font-size: 80px;
     line-height: 110%;
-    max-width: 600px;  
+    max-width: 600px;
+    font-family: Helvetica;  
 }
 .header2 {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 160%;
-    max-width: 300px; 
+    max-width: 300px;
+    font-family: Avenir; 
 }
 .learn_more {
     background: #9C69E2;
@@ -99,7 +143,7 @@ body {
     border: none;
     padding: 16px;
     margin-top: 25px;
-
+    font-family: Avenir;
 }
 .picture_neader2 {
     margin-left: 327px;
@@ -116,7 +160,6 @@ body {
     margin-top: 100px;
     margin-right: 242px;
     margin-left: 4px;
-    min-width: 500px;
 } 
 .flex-container2 h2 {
     color: #212353;
@@ -126,7 +169,8 @@ body {
     max-width: 414px;
     align-items: center;
     margin-top: 110px;
-    margin-bottom: -10px;    
+    margin-bottom: -10px;
+    font-family: Helvetica;    
 } 
 .flex-container2 p {
     color: #4B5D68;
@@ -135,6 +179,7 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 160%;
+    font-family: Avenir;
 }
 .flex-blok-maine-box1-2 {
     display: flex;
@@ -147,6 +192,7 @@ body {
     margin-top: 150px;
     margin-left: 326px;
     text-align: center;
+    margin-bottom: 150px;
 }
 .flex-blok-maine-box2 h2 {
     font-weight: bold;
@@ -154,6 +200,7 @@ body {
     line-height: 130%;
     color: #212353;
     text-align: center;
+    font-family: Helvetica;
 }
 .flex-blok-maine-box2 p {
     font-weight: 500;
@@ -164,21 +211,23 @@ body {
 .flex-container3 {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
     align-items: baseline;
-    align-content: space-around;
-    margin-top: 100px;
-    margin-left: -230px;
+    margin: 100px,auto 0;
     align-content: space-between;
 }
 .margin_let {
     margin-left: 25px;
+    margin-top: -43px;
+}
+.margin_let_p {
+    margin-top: 10px;
 }
 .flex-container3 p {
     max-width: 300px;
     font-size: 16px;
     line-height: 160%;
-    color: #4B5D68
+    color: #4B5D68;
+    font-family: Avenir;
 }
 .flex-container3 button {
     ont-weight: 900;
@@ -190,17 +239,23 @@ body {
 .flex-container3 h3 {
     font-size: 24px;
     line-height: 130%;
-    color: #212353
+    color: #212353;
+    font-family: Helvetica;
 }
 .box_1_2 {
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    flex-wrap: wrap;
 }
 .flex-blok-maine-box2-1 {
     display: flex;
     flex-direction: row;
 }
+.flex-blok-maine-box2-1 img {
+    margin-top: 10px ;
+}
+
 .flex-blok-maine-box2-2 {
     margin-left: 50px;
     display: flex;
@@ -211,6 +266,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    flex-wrap: wrap;
 }
 .flex-blok-maine-box2-3 {
     display: flex;
@@ -243,15 +299,17 @@ body {
     color: #FFFFFF;
     margin-bottom: -40px;
     margin-top: 138px;
+    font-family: Helvetica;
 }
 .conteiner_box3-1 {
     background: #FFFFFF;
-    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    box-shadow: 0px 20px rgba(226, 215, 243, 0.3);
     border-radius: 20px;
     display: flex;
     flex-direction: row;
     padding: 70px;
     margin-top: 150px;
+    font-family: Avenir;
 }
 .conteiner_box3-2 {
     margin-left: 30px
@@ -301,13 +359,15 @@ body {
     font-weight: bold;
     font-size: 40px;
     line-height: 130%;
-    color: #212353
+    color: #212353;
+    font-family: Helvetica;
 }
 .flex-conteiner4 p {
     font-weight: 500;
     font-size: 18px;
     line-height: 160%;
-    color: #4B5D68
+    color: #4B5D68;
+    font-family: Avenir;
 }
 .button_pink {
     font-weight: 900;
@@ -321,6 +381,7 @@ body {
     padding-left: 37px;
     padding-right: 37px;
     border: none;
+    font-family: Avenir;
 }   
 .button_wite {
     font-weight: 900;
@@ -336,6 +397,7 @@ body {
     padding-left: 29px;
     padding-right: 29px;
     margin-left: 30px;
+    font-family: Avenir;
 }
 .buttons {
     margin-top: 50px;
@@ -346,6 +408,7 @@ body {
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
+    font-family: Avenir;
 }
 .footer_pictures {
 }
@@ -422,4 +485,8 @@ body {
 .viber {
    margin-top: 250px;
    margin-left: 150px;
+   background-color: #cbb8e4;
+   border: none;
+   border-radius: 70px;
+   padding: 15px;
 }
