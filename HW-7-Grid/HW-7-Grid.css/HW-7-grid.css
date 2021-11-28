@@ -1,0 +1,512 @@
+body {
+
+}
+.maine-conteiner {
+    max-width: 1440px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    margin: 0px auto;
+}
+/*Header*/
+.header_flex_conteoner {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+    /*Logotype*/
+    .header_flex_conteoner img {
+        margin-bottom: -20px;
+
+    }
+
+    /*Menu*/
+    .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+        .menu_1 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #111111;
+            margin: 0px 20px;
+        }
+        .menu_2 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #111111;
+            margin: 0px 20px;
+
+        }
+        .menu_3 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #111111;
+            margin: 0px 20px;
+        }
+        .menu_4 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #111111;
+            margin: 0px 20px;
+        }
+    /*The ride side or the header*/
+    .right_side {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #2B7AF1;
+        max-width: 750px;
+        padding-bottom: 150px;
+    }
+    .flat_1 {
+          margin-left: -165px;  
+        }
+        /*Contacts*/
+        .contacts {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            padding: 15px 30px;
+            position: relative;
+            background-color:  #2B7AF1;
+            margin-left: 10px;
+        }
+            .contacts_mail {
+                padding: 15px 30px;
+            }
+                .contacts_mail span {
+                    position: absolute;
+                    left: 19px;
+                    bottom: 15px;
+                }
+                .contacts_mail a {
+                    margin-left: 5px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: white;
+                }
+            .contacts_tel {
+                padding: 15px 30px;
+            }
+                .contacts_tel span {
+                    position: absolute;
+                    left: 210px;
+                    bottom: 15px;
+                }
+                .contacts_tel a {
+                    margin-left: 5px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: white;
+                }
+        /*Submuti the call*/
+        .submuti_the_call {
+            background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+            box-shadow: 0px 10px 20px rgba(255, 122, 0, 0.2);
+            border-radius: 25px;
+            padding: 15px 30px;
+            color: white;
+            border: none;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    /*The left side or the header*/
+    .left_side {
+         margin-top: -614px;
+    }
+        .left_side h1 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 49px;
+            display: flex;
+            align-items: center;
+            color: black;
+        }
+        .left_side p {
+            color: black;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 33px;
+            margin-bottom: 71px;
+        }
+        .look_the_options {
+            background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+            box-shadow: 0px 10px 20px rgba(255, 122, 0, 0.2);
+            border-radius: 25px;
+            padding: 15px 30px;
+            color: white;
+            border: none;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    /*Four stages*/
+.four_stages {
+    display: grid;
+    padding: 15px;
+    width: 88%;
+    border: none
+    grid-auto-rows: 200px;
+    gap: 15px;
+    margin-top: 150px;
+    margin: 20px, auto, 0, auto;
+    grid-template-columns: repeat(auto-fit , minmax(150px ,1fr));
+}
+.item {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: black;
+    background: #FFFFFF;
+    border-radius: 10px;
+    filter: drop-shadow(0px 5px 20px rgba(17, 17, 17, 0.3));
+   
+}
+    .item-1 {
+
+    }
+    .item2 {
+        
+    }
+    .item3 {
+        
+    }
+    .item4 {
+        
+    }
+/*MAINE*/
+    /*Our Flat*/
+    .our_flat {
+        display: grid;
+        width: 88%;
+        grid-template-columns:repeat( 3 , 1fr) ;
+        grid-auto-rows: 300px, 300px;
+        margin-top: 50px;
+        gap: 15px;
+        grid-template-areas: 
+        "m1 m1 m2"
+        "m3 m4 m4";
+    }
+    .our_flat_head {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;        
+        line-height: 44px;
+        color: #2B7AF1;
+        margin-top: 150px;
+   }
+    .item1 {
+        background: rgba(17, 17, 17, 0.5);
+        border-radius: 10px;
+        padding: 25px;
+    }
+    .item1 h3 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 29px;
+        color: white;
+    }
+    .item1 p{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: white;
+    }
+    .submuti_deteils {
+        background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+        box-shadow: 0px 10px 20px rgba(255, 122, 0, 0.2);
+        border-radius: 25px;
+        color: white;
+        border: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        padding: 8px 20px;
+
+    }
+    .submuti_deteils-1 {
+        margin-left:584px ;
+        
+    }
+    .submuti_deteils-2 {
+        margin-left:273px ;
+       
+    }
+    .submuti_deteils-3 {
+        margin-left:268px ;
+        
+    }
+    .submuti_deteils-4 {
+        margin-left:589px ;
+       
+    }
+        .item1_1 {
+            background-image:url(background1.png);
+            background-size: contain ;
+            background-repeat: no-repeat;
+            grid-area: m1;
+        }
+        
+        .item1_2 {
+            background-image:url(background2.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            grid-area: m2;
+        }
+        .item1_3 {
+            background-image:url(background3.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            grid-area: m3;
+        }
+        .item1_4 {
+            background-image:url(background4.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            grid-area: m4;
+        }
+    /*<!--Buttom look at all flats-->*/
+    .all_flats {
+         background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+        box-shadow: 0px 10px 20px rgba(255, 122, 0, 0.2);
+        border-radius: 25px;
+        padding: 15px 30px;
+        color: white;
+        border: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 100px;
+        margin-left: 446px;
+    }
+    /*About us*/
+    .about_us {
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        border-bottom: 2px solid #FF7A00;
+        padding-bottom: 40px;
+    }
+        .about_us-1 {
+
+            }
+            .about_us-1 h3 {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 36px;
+                line-height: 44px;
+                color: #2B7AF1;
+                margin-bottom: 40px;
+
+            }
+            .about_us-1 p {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 25px;
+                color: black;
+            }
+        .about_us-2 {
+            display: flex;
+            flex-direction: row;
+            margin-top: 40px;
+        }
+            .about_us-2-1{
+
+                display: flex;
+                flex-direction: row;
+                font-family: Manrope;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 26px;
+                color: black;
+                margin: 80px;
+            }
+                .us_1 {
+                    margin-left: 10px;
+                }
+            .about_us-2-2{
+                display: flex;
+                flex-direction: row;
+                font-family: Manrope;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 26px;
+                color: black;
+                margin: 80px; 
+            }
+                .us_2 {
+                   margin-left: 10px;
+                } 
+            .about_us-2-3{
+                display: flex;
+                flex-direction: row;
+                font-family: Manrope;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 26px;
+                color: black;
+                margin: 80px;  
+            }
+                .us_3 {
+                    margin-left: 10px;
+                }
+/*Contacts*/
+.contacts-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    padding-right: 250px;
+}
+.contacts-1 h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2B7AF1;
+}
+.contacts_inf {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+}
+.contacts_inf-1 {
+    display: flex;
+    flex-direction: column;
+
+}
+.contacts_inf-1-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    
+}
+.contacts_inf-1-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    
+}
+.contacts_inf-1-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    
+}
+.contacts_inf-1 span { 
+    margin-left: 15px;
+}
+.contacts_inf-2 {
+    
+}
+.contacts_inf-2-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    
+}
+.contacts_inf-2-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    
+    
+}
+.signature {
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    box-shadow: 0px 10px 20px rgba(255, 122, 0, 0.2);
+    border-radius: 25px;
+    color: white;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 8px 20px;
+    margin-left: 422px;
+    margin-right: -241px;
+}
+.signature-2 {
+    margin-top: 10px;
+}
+.map {
+    margin-left: 250px;
+}
+/*Coments*/
+.coments {
+   background: #2B7AF1 
+
+}
+.coments h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 130%;
+    color: white;
+}
+.coments-1 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 200px;
+    background-color: white;
+    gap: 15px;
+}
+.coments-1-1 {
+
+}
+.coments-1-2 {
+
+}
+            
