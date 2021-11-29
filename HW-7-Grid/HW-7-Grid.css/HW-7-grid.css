@@ -102,6 +102,9 @@ body {
                     line-height: 20px;
                     color: white;
                 }
+                .contacts_mail img {
+                    margin-bottom: 0px;
+                }
             .contacts_tel {
                 padding: 15px 30px;
             }
@@ -118,6 +121,9 @@ body {
                     font-size: 16px;
                     line-height: 20px;
                     color: white;
+                }
+                .contacts_tel img {
+                    margin-bottom: 0px;
                 }
         /*Submuti the call*/
         .submuti_the_call {
