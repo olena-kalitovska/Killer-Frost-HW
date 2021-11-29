@@ -84,6 +84,7 @@ body {
             position: relative;
             background-color:  #2B7AF1;
             margin-left: 10px;
+            width: 100%;
         }
             .contacts_mail {
                 padding: 15px 30px;
