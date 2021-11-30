@@ -286,30 +286,31 @@ body {
         margin-left:589px ;
        
     }
-        .item1_1 {
-            background-image:url(background1.png);
-            background-size: contain ;
-            background-repeat: no-repeat;
-            grid-area: m1;
+    .shadow {
+        background: rgba(31, 15, 15, 0.5);
+        border-radius: 10px;
         }
-        
+        .item1_1 {
+            background: url(background1.png)  50%/cover no-repeat;
+            grid-area: m1;
+            filter: drop-shadow(0px 10px 20px rgba(17, 17, 17, 0.3));
+            border-radius: 10px
+        }
+        }
         .item1_2 {
-            background-image:url(background2.png);
-            background-size: contain;
-            background-repeat: no-repeat;
+            background: url(background2.png)  50%/cover no-repeat;
+            border-radius: 10px;
             grid-area: m2;
         }
         .item1_3 {
-            background-image:url(background3.png);
-            background-size: contain;
-            background-repeat: no-repeat;
+            background: url(background3.png)  50%/cover no-repeat;
             grid-area: m3;
+            border-radius: 10px;
         }
         .item1_4 {
-            background-image:url(background4.png);
-            background-size: contain;
-            background-repeat: no-repeat;
+            background: url(background4.png)  50%/cover no-repeat;
             grid-area: m4;
+            border-radius: 10px;
         }
     /*<!--Buttom look at all flats-->*/
     .all_flats {
@@ -733,7 +734,8 @@ body {
        background: #FFFFFF;
        border-radius: 10px; 
        padding: 20px; 
-       margin-left: 218px;  
+       margin-left: 218px;
+       z-index: 1;  
    }
    .box1-footer-1 h3 {
        font-family: Montserrat;
@@ -781,7 +783,8 @@ body {
     border-radius: 25px;
     border: none;
     margin-bottom: 20px;
-    margin-left: 124px;        
+    margin-left: 124px; 
+    color: white;       
 }
 .box1-footer-2 {
     font-family: Open Sans;
@@ -816,25 +819,49 @@ body {
 .box2-footer {
     display: flex;
     flex-direction: row;
-    background-image: url(footer-bacrground.png);
+    height: 557px;
+    background: rgba(17, 17, 17, 0.8);
+    background: url(footer-bacrground.png)  50%/cover no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
+    margin-top: -205px;
+}
+.all { 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-left: 150px;
+    margin-bottom: 78px;
+    padding-bottom: 25px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin-left: 80px;
+    margin-right: 80px;
+
 }
 .footer-logotype {
     font-family: Montserrat;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 22px;
-color: #FFFFFF;
-background: #2B7AF1;
-border-radius: 10px;
-padding: 19px , 34px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #2B7AF1;
+    border-radius: 10px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 34px;
+    padding-right: 34px;
+    margin-left: -140px;
+    margin-bottom: -13px;
+
 }
 .menu-footer {
         display: flex;
         flex-direction: row;
-        align-items: baseline;
+        align-items: flex-end;
+        margin-right: 25px;
     }
         .menu_1-1 {
             font-family: Montserrat;
@@ -873,3 +900,76 @@ padding: 19px , 34px;
             color:white;
             margin: 0px 20px;
         }
+    .contacts-footer {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        padding: 15px 30px;
+        margin-bottom: -21px;
+        }
+            .contacts_mail-footer {
+               margin-right: 25px
+            }
+                .contacts_mail span {
+                    
+                }
+                .contacts_mai-footer  {
+                    margin-left: 10px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: white;
+                }
+                .contacts_mail img {
+                    margin-bottom: 0px;
+                }
+            .contacts_tel {
+                padding: 15px 30px;
+            }
+                .contacts_tel span {
+                    position: absolute;
+                    left: 210px;
+                    bottom: 15px;
+                }
+                .contacts_tel-footer {
+                    margin-left: -11px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: white;
+                    margin-right: 21px;
+                }
+                .contacts_tel img {
+                    margin-bottom: 0px;
+                }
+    .footer_foto-4 {
+        margin-left: 0px;
+        
+    }
+    .footer-p {
+        margin-top: 490px;
+        margin-left: -1672px;
+    }
+    .footer-p-1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: white;
+        
+    }   
+    .footer-p-2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: white;
+        margin-left: 500px;
+        margin-top: -30px;
+    }
