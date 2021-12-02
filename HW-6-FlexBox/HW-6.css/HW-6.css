@@ -144,7 +144,12 @@ body {
     padding: 16px;
     margin-top: 25px;
     font-family: Avenir;
-}
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 160%;
+    padding: 16px 37px;
+    }
 .picture_neader2 {
     margin-left: 327px;
     margin-top: -321px;
@@ -230,11 +235,11 @@ body {
     font-family: Avenir;
 }
 .flex-container3 button {
-    ont-weight: 900;
+    font-weight: 900;
     font-size: 16px;
     line-height: 160%;
     border: none;
-    background: white;
+    background-color: white;
 }
 .flex-container3 h3 {
     font-size: 24px;
