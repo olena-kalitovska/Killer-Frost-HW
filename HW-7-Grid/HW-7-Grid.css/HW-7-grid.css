@@ -17,7 +17,6 @@ body {
     /*Logotype*/
     .header_flex_conteoner img {
         margin-bottom: -20px;
-
     }
 
     /*Menu*/
@@ -295,7 +294,6 @@ body {
             grid-area: m1;
             filter: drop-shadow(0px 10px 20px rgba(17, 17, 17, 0.3));
             border-radius: 10px
-        }
         }
         .item1_2 {
             background: url(background2.png)  50%/cover no-repeat;
@@ -820,7 +818,7 @@ body {
     display: flex;
     flex-direction: row;
     height: 557px;
-    background: rgba(17, 17, 17, 0.8);
+    filter: drop-shadow(6px 6px 20px black) invert(12%);
     background: url(footer-bacrground.png)  50%/cover no-repeat;
     background-size: contain;
     background-repeat: no-repeat;
@@ -838,6 +836,7 @@ body {
     width: 100%;
     margin-left: 80px;
     margin-right: 80px;
+    z-index: 5;
 
 }
 .footer-logotype {
@@ -972,4 +971,9 @@ body {
         color: white;
         margin-left: 500px;
         margin-top: -30px;
+    }
+    .shadov-2  {
+       background-color: black;
+       opacity: 90%;
+       z-index: 1;
     }
