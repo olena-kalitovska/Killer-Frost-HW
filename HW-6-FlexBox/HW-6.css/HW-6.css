@@ -1,5 +1,5 @@
 body {
-    background-color: #E5E5E5;
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);;
 }
 .conteiner {
     max-width: 1400px;
@@ -234,7 +234,7 @@ body {
     font-size: 16px;
     line-height: 160%;
     border: none;
-    background-color:#E5E5E5;
+    background: white;
 }
 .flex-container3 h3 {
     font-size: 24px;
@@ -347,7 +347,6 @@ body {
     border-top:#A26FE8;
     border: 10px;
     padding-top: 200px;
-    padding-left: 50px;
     padding-bottom: 200px;
     padding-right: 200px;
 }
@@ -401,7 +400,7 @@ body {
 }
 .buttons {
     margin-top: 50px;
-    margin-left: 351px;
+    margin-left: 452px;
 }
 .flex-conteiner5 {
     display: flex;
