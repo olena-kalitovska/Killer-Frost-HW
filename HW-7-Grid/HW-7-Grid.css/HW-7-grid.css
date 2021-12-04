@@ -975,11 +975,9 @@ body {
         width: 100%;
     }
     .shadow-3 {
-        background:linear-gradient(rgba(17, 17, 17, 0.8),rgba(17, 17, 17, 0.5));
+        background:linear-gradient(rgba(17, 17, 17, 0.1),rgba(17, 17, 17, 50));
         width: 100%;
         margin-top: 394px;
-        padding-bottom: 11px;
-        
-        
+        padding-bottom: 11px; 
     }
     
