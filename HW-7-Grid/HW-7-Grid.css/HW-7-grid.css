@@ -828,15 +828,14 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    padding-left: 150px;
+    padding-left: 153px;
+    margin-right: 358px;
     margin-bottom: 78px;
     padding-bottom: 25px;
-    flex-wrap: wrap;
     border-bottom: 1px solid white;
-    width: 100%;
-    margin-left: 80px;
-    margin-right: 80px;
-    z-index: 5;
+    width: 81%;
+    margin-left: 71px;
+    z-index: 10;
 }
 .footer-logotype {
     font-family: Montserrat;
@@ -853,7 +852,6 @@ body {
     padding-right: 34px;
     margin-left: -140px;
     margin-bottom: -13px;
-
 }
 .menu-footer {
         display: flex;
@@ -972,7 +970,6 @@ body {
         margin-top: -30px;
     }
     .shadov-2  {
-       background-color: black;
-       opacity: 90%;
-       z-index: 1;
+        background: rgba(17, 17, 17, 0.8);
+        border-radius: 10px;
     }
