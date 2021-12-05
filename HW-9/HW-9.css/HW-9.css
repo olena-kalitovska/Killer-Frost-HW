@@ -1,0 +1,613 @@
+body {
+    max-width: 1440px;
+    padding-top: 15px;
+    margin: 0px auto;
+}
+/*HEADER*/
+header {
+    background: #F4F6F9;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 166px; 
+}
+/*left-side-header*/
+.left-side-header {
+    display: flex;
+    flex-direction: column;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.sport {
+    font-family: Product Sans;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #5282F0;
+    margin-left: 10px;
+    
+} 
+.left-side-header h1 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.03em;
+    color: #333333;
+    margin-top: 50px;
+}
+.left-side-header p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #4F4F4F;
+    margin-right: 55px;
+}
+/* Button to download*/
+.button-header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10% 0% ;
+    
+}
+/*Google*/
+.google_play {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    background: #000000;
+    border-radius: 7.33503px;
+    padding: 5px 5px;  
+    margin-left: 5%;
+    position: relative;
+    height: 60px;
+    }
+.icon-google {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 15px;
+}
+.google {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17.6041px;
+    line-height: 21px;
+    position: absolute;
+    left: 63px;
+}
+.google_play p {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+}
+/*Apple*/
+.apple_play {
+    width: 45%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row; 
+    background: #000000;
+    border-radius: 7.33503px;
+    padding: 15px 5px;
+    text-decoration: none;
+    position: relative;
+    height: 40px;
+}
+.icon-apple {
+    margin: 0px 10px 0px 0px;
+    text-decoration: none;
+    position: absolute;
+    top: 17px;
+    bottom: 0px;
+}
+.apple {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.2716px;
+    line-height: 25px;
+    position: absolute;
+    left: 63px;
+    bottom: 0px;
+    top: 9px;
+
+}
+.apple_play p {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.0025px;
+    line-height: 0px;
+    margin-right: 0px;
+}
+
+/*Ride-side-header*/
+.ride-side-header {
+    margin-left: 0px;
+}
+@media screen and (min-width: 360px) and (max-width: 720px){
+    header {
+        padding: 0px 30px 50px 30px;
+    }
+    .left-side-header {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .left-side-header h1 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .left-side-header p {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+    }
+    .button-header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .apple_play {
+        width: 150px;
+    }
+    .apple {
+        text-decoration: none;
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15.2716px;
+        line-height: 0px;
+        position: absolute;
+        left: 45px;
+        bottom: 0px;
+        top: 15px;
+        
+    }
+    .apple_play p {
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11.0025px;
+        line-height: 0px;
+        margin-right: 0px;
+    }
+    .google_play {
+        width: 150px;
+    }
+    .google {
+        text-decoration: none;
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15.6041px;
+        line-height: 0px;
+        position: absolute;
+        left: 53px;
+        bottom: 29px;
+        
+    }
+    .google_play p {
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 1px;
+    }   
+    .ride-side-header {
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 720px) and (max-width: 890px) {
+     header {
+        padding: 0px 30px 50px 30px;
+        }
+    .left-side-header {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .left-side-header h1 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .left-side-header p {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+    }
+    .button-header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .apple_play {
+        width: 150px;
+    }
+    .apple {
+        text-decoration: none;
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15.2716px;
+        line-height: 0px;
+        position: absolute;
+        left: 45px;
+        bottom: 0px;
+        top: 15px;
+        
+    }
+    .apple_play p {
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11.0025px;
+        line-height: 0px;
+        margin-right: 0px;
+    }
+    .google_play {
+        width: 150px;
+    }
+    .google {
+        text-decoration: none;
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15.6041px;
+        line-height: 0px;
+        position: absolute;
+        left: 53px;
+        bottom: 29px;
+        
+    }
+    .google_play p {
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 1px;
+    }   
+    .ride-side-header {
+        display: none;
+    }
+}
+@media screen and (min-width: 890px) and (max-width: 1024px) {
+     header {
+        padding-left: 30px;
+        }
+    .left-side-header {
+        display: flex;
+        flex-direction: column;
+        margin-right: -480px;
+    }
+    .left-side-header h1 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 40px;
+        z-index: 2;
+    }
+    .left-side-header p {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        padding-right: 100px;
+        z-index: 2;
+    }
+    .button-header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 159px;
+        flex-direction: column;
+    }
+    .apple_play {
+        width: 150px;
+        margin-top: 0px;
+    }
+    .apple {
+        text-decoration: none;
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15.2716px;
+        line-height: 0px;
+        position: absolute;
+        left: 45px;
+        bottom: 0px;
+        top: 15px;
+        
+    }
+    .apple_play p {
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11.0025px;
+        line-height: 0px;
+        margin-right: 0px;
+    }
+    .google_play {
+        width: 150px;
+        margin-top: -164px;
+        margin-left: 0px;
+    }
+    .google {
+        text-decoration: none;
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15.6041px;
+        line-height: 0px;
+        position: absolute;
+        left: 53px;
+        bottom: 29px;
+        
+    }
+    .google_play p {
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 1px;
+    }   
+    .ride-side-header {
+        
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+     header {
+        padding-left: 30px;
+        }
+    .left-side-header {
+        display: flex;
+        flex-direction: column;
+        margin-right: -480px;
+    }
+    .left-side-header h1 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 40px;
+        z-index: 2;
+    }
+    .left-side-header p {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        padding-right: 100px;
+        z-index: 2;
+    }
+    .button-header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: -84px;
+    }
+    .apple_play {
+        width: 150px;
+    }
+    .apple {
+        text-decoration: none;
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15.2716px;
+        line-height: 0px;
+        position: absolute;
+        left: 45px;
+        bottom: 0px;
+        top: 15px; 
+    }
+    .apple_play p {
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11.0025px;
+        line-height: 0px;
+        margin-right: 0px;
+    }
+    .google_play {
+        width: 150px;
+    }
+    .google {
+        text-decoration: none;
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15.6041px;
+        line-height: 0px;
+        position: absolute;
+        left: 53px;
+        bottom: 29px;
+    }
+    .google_play p {
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 1px;
+    }   
+    .ride-side-header {
+        
+    }
+}
+/*MAINE*/
+
+/*Box-1*/
+.box-1 {
+display: flex;
+flex-direction: row;
+}
+/*left-side-box-1*/
+.left-side-box-1 {
+    background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5);
+
+}
+.baner-box-1 {
+    background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5);
+}
+.background-box-1 {
+    width: 100%;
+}
+.baner2-box-1 {
+    z-index: 1;
+    margin-top: -476px;
+
+}
+.foto-2-box-1 {
+    z-index: 1;
+    mar
+}
+.baner3-box-1 {
+    margin: -16px 0px 0px 165px;
+}
+.foto-1-box-1 {
+    
+}
+
+/*Ride-side-box-1*/
+.ride-side-box-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 50px 150px 0px;
+
+}
+.ride-side-box-1 h3 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+
+}
+.ride-side-box-1 h2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+}
+.p-box {
+    display: flex;
+    flex-direction: column;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+
+}
+@media screen and (min-width: 360px) and (max-width: 720px) {
+    /*Box-1*/
+    .box-1 {
+        display: flex;
+        flex-direction:column;
+    }
+    /*left-side-box-1*/
+    .left-side-box-1 {
+        order: 2;
+    }
+    .baner-box-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .background-box-1 {
+        width: 100%;
+    }
+    /*Ride-side-box-1*/
+    .ride-side-box-1 {
+        display: flex;
+        flex-direction: column;
+        order: 1;
+        padding: 50px 30px;
+
+    }
+    .ride-side-box-1 h3 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+    }
+    .ride-side-box-1 h2 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .p-box {
+        display: flex;
+        flex-direction: column;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+    }
+}
