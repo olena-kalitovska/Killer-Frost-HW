@@ -407,7 +407,7 @@ header {
         
     }
 }
-@media screen and (min-width: 1024px) and (max-width: 1400px) {
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
      header {
         padding-left: 30px;
         }
@@ -437,8 +437,8 @@ header {
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-top: 20px;
-        margin-left: -84px;
+        margin-top: 87px;
+        margin-left: 45px;
     }
     .apple_play {
         width: 150px;
@@ -501,11 +501,9 @@ flex-direction: row;
 }
 /*left-side-box-1*/
 .left-side-box-1 {
-    background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5);
 
 }
 .baner-box-1 {
-    background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5);
 }
 .background-box-1 {
     width: 100%;
@@ -513,17 +511,17 @@ flex-direction: row;
 .baner2-box-1 {
     z-index: 1;
     margin-top: -476px;
-
 }
 .foto-2-box-1 {
-    z-index: 1;
-    mar
+   max-width: 350px;
 }
 .baner3-box-1 {
     margin: -16px 0px 0px 165px;
+    z-index: 1;
 }
 .foto-1-box-1 {
-    
+    max-width: 350px;
+    z-index: 1;
 }
 
 /*Ride-side-box-1*/
@@ -567,6 +565,7 @@ flex-direction: row;
     /*left-side-box-1*/
     .left-side-box-1 {
         order: 2;
+        position: relative;
     }
     .baner-box-1 {
         display: flex;
@@ -576,13 +575,28 @@ flex-direction: row;
     .background-box-1 {
         width: 100%;
     }
+    .baner2-box-1 {
+        position: absolute;
+        top: 520px;
+        left: 52px; 
+    }
+    .foto-2-box-1  {
+        width: 200px;
+    }
+    .baner3-box-1 {
+        position: absolute;
+        top: 156px;
+        right: 51px;
+    }
+    .foto-1-box-1 {
+       width: 200px;
+    }
     /*Ride-side-box-1*/
     .ride-side-box-1 {
         display: flex;
         flex-direction: column;
         order: 1;
-        padding: 50px 30px;
-
+        padding: 50px 10px;
     }
     .ride-side-box-1 h3 {
         font-family: Lato;
@@ -611,3 +625,255 @@ flex-direction: row;
         text-align: center;
     }
 }
+@media screen and (min-width: 720px) and (max-width: 890px) {
+    /*Box-1*/
+    .box-1 {
+        display: flex;
+        flex-direction:row;
+    }
+    /*left-side-box-1*/
+    .left-side-box-1 {
+        position: relative;
+        width: 100%;
+    }
+    .baner-box-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 140px;
+    }
+    .background-box-1 {
+        width: 500px;
+        height: 500px;
+    }
+    .baner2-box-1 {
+        position: absolute;
+        top: 720px;
+        left: 52px; 
+    }
+    .foto-2-box-1  {
+        width: 300px;
+    }
+    .baner3-box-1 {
+        position: absolute;
+        top: 435px;
+        right: 51px;
+    }
+    .foto-1-box-1 {
+       width: 300px;
+    }
+    /*Ride-side-box-1*/
+    .ride-side-box-1 {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 30px;
+    }
+    .ride-side-box-1 h3 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .ride-side-box-1 h2 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 37px;
+    }
+    .p-box {
+        display: flex;
+        flex-direction: column;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+    } 
+}
+@media screen and (min-width: 890px) and (max-width: 1024px) {
+    /*Box-1*/
+    .box-1 {
+        display: flex;
+        flex-direction:row;
+    }
+    /*left-side-box-1*/
+    .left-side-box-1 {
+        position: relative;
+        width: 100%;
+    }
+    .baner-box-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .background-box-1 {
+        width: 550px;
+        height: 550px;
+    
+    }
+    .baner2-box-1 {
+        position: absolute;
+        top: 570px;
+        left: 52px; 
+    }
+    .foto-2-box-1  {
+        width: 400px;
+    }
+    .baner3-box-1 {
+        position: absolute;
+        top: 290px;
+        right: 51px;
+    }
+    .foto-1-box-1 {
+       width: 400px;
+    }
+    /*Ride-side-box-1*/
+    .ride-side-box-1 {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 30px;
+    }
+    .ride-side-box-1 h3 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .ride-side-box-1 h2 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 37px;
+    }
+    .p-box {
+        display: flex;
+        flex-direction: column;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+    } 
+}
+@media screen and (min-width: 1024px) and (max-width: 2560px) {
+    /*Box-1*/
+    .box-1 {
+        display: flex;
+        flex-direction:row;
+    }
+    /*left-side-box-1*/
+    .left-side-box-1 {
+        position: relative;
+        width: 100%;
+    }
+    .baner-box-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .background-box-1 {
+        width: 100%;
+        height: 550px;
+    
+    }
+    .baner2-box-1 {
+        position: absolute;
+        top: 570px;
+        left: 52px; 
+    }
+    .foto-2-box-1  {
+        width: 600px;
+    }
+    .baner3-box-1 {
+        position: absolute;
+        top: 290px;
+        right: 51px;
+    }
+    .foto-1-box-1 {
+       width: 600px;
+    }
+    /*Ride-side-box-1*/
+    .ride-side-box-1 {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 30px;
+    }
+    .ride-side-box-1 h3 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .ride-side-box-1 h2 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 37px;
+    }
+    .p-box {
+        display: flex;
+        flex-direction: column;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+    } 
+}
+/*Box-2*/
+.box-2 {
+
+}
+/* left-side*/
+.left-side-box-2 {
+
+}
+.left-side-box-2 h3 {
+
+}
+.left-side-box-2 h2{
+
+}
+.p-box-2 {
+
+}
+
+/* Ride-side*/
+.radius-1 {
+    border: 1px solid #00ADEE;
+    box-sizing: border-box;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.radius-2 {
+    border: 1px solid #00ADEE;
+    box-sizing: border-box;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    opacity: 0.65;
+}
+.radius-3 {
+    border: 1px solid #00ADEE;
+    box-sizing: border-box;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    opacity: 0.55;
+}
+.ride-side-box-2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 1px dashed #00ADEE;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.radiys {
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    border: 1px dashed #00ADEE;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+@media screen and (min-width: 360px) and (max-width: 720px)
