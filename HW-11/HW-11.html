@@ -19,16 +19,18 @@
 </head>
 <body class="container">
     <header class="container-fluid border-bottom d-flex flex-row justify-content-between align-items-center header-1 ">
-        <h3 style="font-family: Lobster" class=""> Instagram</h3>
-        <div class="search">
+        <h3 style="font-family: Lobster" class="fs-2 fw-normal lh-lg"> Instagram</h3>
+        <div class="d-flex flex-row justify-content-center align-items-center border rounded-3 search">
             <span><img src="pictures-HW-11/search.png" alt="search"></span>
-        <input class="text-muted search1" type="search" name="Search" value="" placeholder="Search" />
+        <input class="text-muted border-0 search1" type="search" name="Search" value="" placeholder="Search" />
         </div>
-        <div class="header-pictures">
+        <div class="d-flex flex-row justify-content-around align-items-center header-pictures">
            <img src="pictures-HW-11/home-1.jpg" alt="homw page"> 
             <div class="header-pictures-messeg">
-                <div class="five">5</div>
-                <img src="pictures-HW-11/Vector (4).png" alt="message">
+                <button type="button" class="btn position-relative">
+                <img src="pictures-HW-11/Vector (4).png" alt="message"> <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger text-white">5 <span
+                            class="visually-hidden">unread messages</span></span>
+                </button>
             </div>
             <img src="pictures-HW-11/Vector (1).jpg" alt="navigation">
             <img src="pictures-HW-11/Vector (2).jpg" alt="like">
@@ -86,7 +88,7 @@
             </div>
             <!--Post-->
             <div class="border-top menu-post">
-                <span><img class="border-top border-dark" src="pictures-HW-11/Vector (3).jpg" alt=""> POSTS</span> 
+                <span><img class="border-top border-dark text-uppercase" src="pictures-HW-11/Vector (3).jpg" alt=""> Posts</span> 
                 <span><img src="pictures-HW-11/Vector (4).jpg" alt="">TAGGED</span>
             </div>
             <div class="container-fluid">
