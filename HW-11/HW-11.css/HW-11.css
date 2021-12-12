@@ -1,0 +1,159 @@
+
+
+.header-1 {
+     padding: 10px 0 10px 0;
+}
+.header-1 h3 {
+    font-family: Lobster; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 35px;
+}
+.search {
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-left: 80px;
+}
+.search1 {
+   border: none;
+   width: 150px;
+}
+.header-pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    position: relative;
+    width: 250px;
+}
+.header-pictures-messeg {
+    display: flex;
+    flex-direction: column;
+}
+.five {
+    width: 20px;
+    padding-left: 5px;
+    background: #DC565B;
+    border-radius: 100px;
+    border: none;
+    z-index: 1;
+    color: #FFFFFF;
+    position: absolute;
+    top: -13px;
+    left: 79px;
+}
+@media screen and (min-width: 320px) and (max-width: 600px){
+    .header-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 0 10px 0;
+    }
+.header-pictures {
+    margin-top: 25px;
+    }
+}   
+    
+/*Maine*/
+.maine-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    height: 250px;
+}
+.header-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 350px;
+}
+.followers {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    justify-content: space-around;
+    align-items: center;
+}
+.information  {
+
+}
+.buttom-follow {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.pointer {
+    padding: 20px;
+}
+.drops {
+    margin: 15px;
+}
+.ava {
+    width: 154px;
+    height: 153px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../pictures-HW-11/gratis-png-linea-sky-plc-linea-thumbnail.png);
+    border-radius: 100px;
+    border: 1px solid #DBDBDB;
+    margin: 30px 70px 30px 30px;
+}
+.ava-background {
+    width: 27%;
+}
+.right-side {
+   width: 83%;   
+}
+.ellipse {
+   width: 79px;
+    height: 79px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../pictures-HW-11/gratis-png-linea-sky-plc-linea-thumbnail.png);
+    border-radius: 100px;
+    border: 1px solid #DBDBDB;
+}
+.post {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.square {
+    width: 297px;
+    height: 297px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../pictures-HW-11/gratis-png-linea-sky-plc-linea-thumbnail.png);
+    border: 1px solid #DBDBDB;      
+}
+/*FOTO*/
+.ava-3 {
+    width: 25%;
+}
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+}
+@media screen and (min-width: 320px) and (max-width:766px) {
+    .maine-box {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+    margin-top: 100px;
+    }
+    .ava-background {
+        order: 2;   
+    } 
+}
+/*Post*/
+.menu-post {
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
