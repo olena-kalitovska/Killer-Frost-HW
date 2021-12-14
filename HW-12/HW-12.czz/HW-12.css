@@ -1,0 +1,66 @@
+body {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+p {
+    color: #6F7CB2 ;
+}
+
+
+
+
+
+.header-1 {
+    background-image: url(../HW-12-pictures/designer_1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    color: #091133;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 250px;
+    
+}
+.buy-nom {
+    background-color:  #091133;
+    color: white;
+}
+@media screen and (min-width: 300px) and (max-width: 768px);{
+    .header-1 {
+        width: 100%;
+    }
+}
+.baner-introduce {
+    
+}
+.purchase {
+    background-color:  #091133;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-1 {
+    background: #E7ECFF;
+    opacity: 0.5;
+}
+.footer-background {
+    z-index: 1;
+}
+.footer-2 {
+    background: #E7ECFF;
+}
