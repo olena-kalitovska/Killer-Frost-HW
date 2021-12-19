@@ -1,0 +1,104 @@
+$color: #37447E;
+$color-p: #505F98;
+$color-2: #FFF;
+$color-3: #5D6970;
+$button-backgroud: #091133;
+body {
+    max-width: 1440px;
+    margin: 0px auto;
+    font-family: 'Roboto';
+}
+p {
+    color: $color-p;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #091133;
+}
+.button_buy-nom {
+    background-color: $button-backgroud;
+    color: $color-2;
+}    
+.button-purchase  {
+    background-color: $button-backgroud;
+    color: $color-2;
+}
+.button_purchase-Footer {
+    background-color: $button-backgroud;
+    color: $color-2;
+}
+.baner {
+    max-width: 100%;
+}
+.footer-background  {
+   background: #f3f5ff; 
+}
+.footer-1 {
+    padding-bottom: 250px;
+    padding-top: 150px;
+    text-align: center;
+    z-index: 5;
+}
+.footer-2 {
+    background: #E7ECFF;
+    padding: 50px 30px 25px 30px;
+}
+.footer-menu {
+    color:$color-p;
+    width: 40%;
+}
+.button-purchase_footer  {
+    background-color: $button-backgroud;
+    color: $color-2;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+}
+.header-1 {
+    background-image: url(../HW-12-pictures/designer_1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    color: #091133;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 250px;
+    &__div {
+        &__menu {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            color: $color-p;
+        }
+        &__landie {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 38px;
+            color: $color;
+        }
+    }
+}
+.header-2 {
+    &__about {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 66px;
+        color: #091133;
+    }
+
+}
+
