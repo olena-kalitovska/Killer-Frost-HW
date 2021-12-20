@@ -75,14 +75,15 @@
 @media screen and (min-width: 250px) and (max-width:766px) {
     .maine-box {
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
     justify-content: center;
     align-items: center;
-    order: 1;
-    margin-top: 200px;
     }
     .ava-background {
-        order: 2;  
+        padding-top: 121px;  
+    }
+    .information {
+       padding-left: 100px;
     } 
 }
 /*Post*/
