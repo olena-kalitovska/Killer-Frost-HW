@@ -60,17 +60,3 @@
   color: #18A0FB;
   border-radius: 5px;
 }
-
-body {
-  max-width: 1440px;
-  padding-left: 50px;
-  padding-top: 150px;
-  padding-bottom: 35px;
-  margin: 0px auto;
-}
-
-h3 {
-  font-weight: 600;
-  font-size: 25px;
-  line-height: 30px;
-}
