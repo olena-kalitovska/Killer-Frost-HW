@@ -3,12 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="css/screen.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .preloader {
+            position: fixed;
+            background-color: #fefeff;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            z-index: 9999;
+        }
+        .preloader > div {
+            position: relative;
+            left: 50%;
+            top: 50%;
+            margin: -100px 0 0 -100px;
+        }
+    </style>
 </head>
 <body>
 <header>
+    <div class="preloader">
+        <div>
+            <img src="img/loader.svg" alt="site loading">
+        </div>
+    </div>
     <div class="wrapper">
         <img src="img/logo.png" alt="Logo Avtoparktronik" class="logo">
         <div class="right-block">
@@ -308,9 +327,17 @@
 
     </div>
 </footer>
+<link rel="stylesheet" href="css/screen.css">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/main.css">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="lib/plugins.js"></script>
+<script>
+    $(window).on('load', function (){
+        $('.preloader').delay(500).fadeOut('slow');
+    })
+</script>
 <script>
     // 2. This code loads the IFrame Player API code asynchronously.
     var tag = document.createElement('script');
