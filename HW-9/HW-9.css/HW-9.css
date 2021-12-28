@@ -828,11 +828,17 @@ flex-direction: row;
 }
 /*Box-2*/
 .box-2 {
-
+    display: flex;
+    flex-direction: row;
+    background: url(../pictures_HW-9/baner-3.jpg);
+     background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
 }
 /* left-side*/
 .left-side-box-2 {
-
+    width: 35%;
+    margin: 100px 0 100px 100px;
 }
 .left-side-box-2 h3 {
 
@@ -844,36 +850,161 @@ flex-direction: row;
 
 }
 
-/* Ride-side*/
-.radius-1 {
-    border: 1px solid #00ADEE;
-    box-sizing: border-box;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
-.radius-2 {
-    border: 1px solid #00ADEE;
-    box-sizing: border-box;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    opacity: 0.65;
+@media screen and (min-width: 360px) and (max-width: 720px) {
+    .box-2 {
+    display: flex;
+    flex-direction: column;
+    }
+    .left-side-box-2 {
+    
+   }
+   .ride-side-box-2 {
+       background-image: url(../pictures_HW-9/baner-3-small.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: center;
+       min-height: 300px;
+       min-width: 200px;
+   }
 }
-.radius-3 {
-    border: 1px solid #00ADEE;
-    box-sizing: border-box;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    opacity: 0.55;
+/*Box-3*/
+.box-3_backgroung {
+    background-color: #00ADEE;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-size: 28px;
+    line-height: 37px;
 }
-.ride-side-box-2 {
-    width: 200px;
-    height: 200px;
-    border-radius: 200px;
-    border: 1px dashed #00ADEE;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+.box-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows:minmax(150px , 200px) ;
+    gap: 20px;
+    background-color: #00ADEE;
+    padding: 100px;
+    color: white;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+
 }
-.radiys {
-    width: 100px;
-    height: 100px;
-    border-radius: 200px;
-    border: 1px dashed #00ADEE;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+.box-3 p {
+    text-align: left;
 }
-@media screen and (min-width: 360px) and (max-width: 720px)
+@media screen and (min-width: 360px) and (max-width: 720px) {
+        .box-3_backgroung {
+        background-color:#FAFAFA ;
+        text-align: center;
+        color: black;
+        padding-top: 50px;
+        font-size: 28px;
+        line-height: 37px;
+        text-align: center;
+        width: 100%;
+    }
+    .box-3 {
+        display: flex;
+        flex-direction: column;
+        background-color:#FAFAFA; 
+        padding: 50px;
+        color: black;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        width: 100%;
+        text-align: center;
+
+    }
+    .icon {
+        fill:#00ADEE ;
+        margin-bottom: 30px;
+    }
+    .box-3 p {
+    text-align: center;
+    }   
+}
+/*BOX-4*/
+.box-4 {
+    text-align: center;
+    padding: 50px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+}
+.list_comet {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+}
+.group {
+    position: absolute;
+}
+
+
+.group_left{
+    top: 50%;
+    left: 100px;
+}
+
+
+.group_right {
+    top:50%;
+    right: 100px;
+}
+.group_bottom {
+    bottom: -30px;
+    left: 50%;
+}
+@media screen and (min-width: 360px) and (max-width: 720px) {
+    .invisibel {
+        display: none;
+    }
+    .maine_comet {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .group_right {
+    top:30%;
+    right: -100px;
+    }
+}
+/*box-5*/
+.box-5 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    padding: 50px;
+    background: #FAFAFA;
+}
+.list_logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+}
+@media screen and (min-width: 360px) and (max-width: 720px) {
+    ..box-5 {
+        text-align: justify;
+    }
+    .list_logos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 50px 0px;
+    }
+}
